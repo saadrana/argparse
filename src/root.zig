@@ -200,7 +200,7 @@ pub const ArgSpec = struct {
     long: []const u8,
     short: ?u8 = null,
     description: []const u8,
-    type: type = void,
+    type: type,
     default_value: ?[]const u8 = null,
     required: bool = false,
 };
